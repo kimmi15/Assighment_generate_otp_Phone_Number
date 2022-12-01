@@ -1,0 +1,21 @@
+{
+  "name": "mobile-otp-auth",
+  "version": "1.0.0",
+  "description": "Mobile otp based authentication and authorization with nodejs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "kimmi sinha",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
